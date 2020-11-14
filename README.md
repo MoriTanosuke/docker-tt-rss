@@ -1,55 +1,18 @@
-*** IMPORTANT NOTICE ***  
-THIS IMAGE HAS BEEN DEPRECATED  
-We are no longer able to ingest tarballs from upstream repo  
+# [moritanosuke/tt-rss](https://github.com/moritanosuke/docker-tt-rss)
 
-
-[![linuxserver.io](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_medium.png)](https://linuxserver.io)
-
-[![Blog](https://img.shields.io/static/v1.svg?style=flat-square&color=E68523&label=linuxserver.io&message=Blog)](https://blog.linuxserver.io "all the things you can do with our containers including How-To guides, opinions and much more!")
-[![Discord](https://img.shields.io/discord/354974912613449730.svg?style=flat-square&color=E68523&label=Discord&logo=discord&logoColor=FFFFFF)](https://discord.gg/YWrKVTn "realtime support / chat with the community and the team.")
-[![Discourse](https://img.shields.io/discourse/https/discourse.linuxserver.io/topics.svg?style=flat-square&color=E68523&logo=discourse&logoColor=FFFFFF)](https://discourse.linuxserver.io "post on our community forum.")
-[![Fleet](https://img.shields.io/static/v1.svg?style=flat-square&color=E68523&label=linuxserver.io&message=Fleet)](https://fleet.linuxserver.io "an online web interface which displays all of our maintained images.")
-[![GitHub](https://img.shields.io/static/v1.svg?style=flat-square&color=E68523&label=linuxserver.io&message=GitHub&logo=github&logoColor=FFFFFF)](https://github.com/linuxserver "view the source for all of our repositories.")
-[![Open Collective](https://img.shields.io/opencollective/all/linuxserver.svg?style=flat-square&color=E68523&label=Supporters&logo=open%20collective&logoColor=FFFFFF)](https://opencollective.com/linuxserver "please consider helping us by either donating or contributing to our budget")
-
-The [LinuxServer.io](https://linuxserver.io) team brings you another container release featuring :-
-
- * regular and timely application updates
- * easy user mappings (PGID, PUID)
- * custom base image with s6 overlay
- * weekly base OS updates with common layers across the entire LinuxServer.io ecosystem to minimise space usage, down time and bandwidth
- * regular security updates
-
-Find us at:
-* [Blog](https://blog.linuxserver.io) - all the things you can do with our containers including How-To guides, opinions and much more!
-* [Discord](https://discord.gg/YWrKVTn) - realtime support / chat with the community and the team.
-* [Discourse](https://discourse.linuxserver.io) - post on our community forum.
-* [Fleet](https://fleet.linuxserver.io) - an online web interface which displays all of our maintained images.
-* [GitHub](https://github.com/linuxserver) - view the source for all of our repositories.
-* [Open Collective](https://opencollective.com/linuxserver) - please consider helping us by either donating or contributing to our budget
-
-# [linuxserver/tt-rss](https://github.com/linuxserver/docker-tt-rss)
-
-[![GitHub Stars](https://img.shields.io/github/stars/linuxserver/docker-tt-rss.svg?style=flat-square&color=E68523&logo=github&logoColor=FFFFFF)](https://github.com/linuxserver/docker-tt-rss)
-[![GitHub Release](https://img.shields.io/github/release/linuxserver/docker-tt-rss.svg?style=flat-square&color=E68523&logo=github&logoColor=FFFFFF)](https://github.com/linuxserver/docker-tt-rss/releases)
-[![GitHub Package Repository](https://img.shields.io/static/v1.svg?style=flat-square&color=E68523&label=linuxserver.io&message=GitHub%20Package&logo=github&logoColor=FFFFFF)](https://github.com/linuxserver/docker-tt-rss/packages)
-[![GitLab Container Registry](https://img.shields.io/static/v1.svg?style=flat-square&color=E68523&label=linuxserver.io&message=GitLab%20Registry&logo=gitlab&logoColor=FFFFFF)](https://gitlab.com/Linuxserver.io/docker-tt-rss/container_registry)
-[![Quay.io](https://img.shields.io/static/v1.svg?style=flat-square&color=E68523&label=linuxserver.io&message=Quay.io)](https://quay.io/repository/linuxserver.io/tt-rss)
-[![MicroBadger Layers](https://img.shields.io/microbadger/layers/linuxserver/tt-rss.svg?style=flat-square&color=E68523)](https://microbadger.com/images/linuxserver/tt-rss "Get your own version badge on microbadger.com")
-[![Docker Pulls](https://img.shields.io/docker/pulls/linuxserver/tt-rss.svg?style=flat-square&color=E68523&label=pulls&logo=docker&logoColor=FFFFFF)](https://hub.docker.com/r/linuxserver/tt-rss)
-[![Docker Stars](https://img.shields.io/docker/stars/linuxserver/tt-rss.svg?style=flat-square&color=E68523&label=stars&logo=docker&logoColor=FFFFFF)](https://hub.docker.com/r/linuxserver/tt-rss)
-[![Build Status](https://ci.linuxserver.io/view/all/job/Docker-Pipeline-Builders/job/docker-tt-rss/job/master/badge/icon?style=flat-square)](https://ci.linuxserver.io/job/Docker-Pipeline-Builders/job/docker-tt-rss/job/master/)
-[![](https://lsio-ci.ams3.digitaloceanspaces.com/linuxserver/tt-rss/latest/badge.svg)](https://lsio-ci.ams3.digitaloceanspaces.com/linuxserver/tt-rss/latest/index.html)
+[![GitHub Stars](https://img.shields.io/github/stars/moritanosuke/docker-tt-rss.svg?style=flat-square&color=E68523&logo=github&logoColor=FFFFFF)](https://github.com/moritanosuke/docker-tt-rss)
+[![GitHub Release](https://img.shields.io/github/release/moritanosuke/docker-tt-rss.svg?style=flat-square&color=E68523&logo=github&logoColor=FFFFFF)](https://github.com/moritanosuke/docker-tt-rss/releases)
+[![MicroBadger Layers](https://img.shields.io/microbadger/layers/moritanosuke/tt-rss.svg?style=flat-square&color=E68523)](https://microbadger.com/images/moritanosuke/tt-rss "Get your own version badge on microbadger.com")
+[![Docker Pulls](https://img.shields.io/docker/pulls/moritanosuke/tt-rss.svg?style=flat-square&color=E68523&label=pulls&logo=docker&logoColor=FFFFFF)](https://hub.docker.com/r/moritanosuke/tt-rss)
+[![Docker Stars](https://img.shields.io/docker/stars/moritanosuke/tt-rss.svg?style=flat-square&color=E68523&label=stars&logo=docker&logoColor=FFFFFF)](https://hub.docker.com/r/moritanosuke/tt-rss)
 
 [Tt-rss](https://tt-rss.org) is an open source web-based news feed (RSS/Atom) reader and aggregator, designed to allow you to read news from any location, while feeling as close to a real desktop application as possible.
-
-[![tt-rss](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/tt-rss-banner.png)](https://tt-rss.org)
 
 ## Supported Architectures
 
 Our images support multiple architectures such as `x86-64`, `arm64` and `armhf`. We utilise the docker manifest for multi-platform awareness. More information is available from docker [here](https://github.com/docker/distribution/blob/master/docs/spec/manifest-v2-2.md#manifest-list) and our announcement [here](https://blog.linuxserver.io/2019/02/21/the-lsio-pipeline-project/).
 
-Simply pulling `linuxserver/tt-rss` should retrieve the correct image for your arch, but you can also pull specific arch images via tags.
+Simply pulling `moritanosuke/tt-rss` should retrieve the correct image for your arch, but you can also pull specific arch images via tags.
 
 The architectures supported by this image are:
 
@@ -83,7 +46,7 @@ docker create \
   -p 80:80 \
   -v <path to data>:/config \
   --restart unless-stopped \
-  linuxserver/tt-rss
+  moritanosuke/tt-rss
 ```
 
 
@@ -96,7 +59,7 @@ Compatible with docker-compose v2 schemas.
 version: "2"
 services:
   tt-rss:
-    image: linuxserver/tt-rss
+    image: moritanosuke/tt-rss
     container_name: tt-rss
     environment:
       - PUID=1000
@@ -123,7 +86,7 @@ Container images are configured using parameters passed at runtime (such as thos
 
 ## Environment variables from files (Docker secrets)
 
-You can set any environment variable from a file by using a special prepend `FILE__`. 
+You can set any environment variable from a file by using a special prepend `FILE__`.
 
 As an example:
 
@@ -164,7 +127,7 @@ The container can configure itself using environment variables, the guard for th
 * -e DB_PORT=3306
 * -e SELF_URL_PATH=http://localhost/
 
-Please note if you use this method you need to have an already initialized database endpoint. We do our best to ensure that anything in the config.php can be set via these environment variables. 
+Please note if you use this method you need to have an already initialized database endpoint. We do our best to ensure that anything in the config.php can be set via these environment variables.
 
 
 
@@ -175,7 +138,7 @@ Please note if you use this method you need to have an already initialized datab
 * container version number
   * `docker inspect -f '{{ index .Config.Labels "build_version" }}' tt-rss`
 * image version number
-  * `docker inspect -f '{{ index .Config.Labels "build_version" }}' linuxserver/tt-rss`
+  * `docker inspect -f '{{ index .Config.Labels "build_version" }}' moritanosuke/tt-rss`
 
 ## Updating Info
 
@@ -184,7 +147,7 @@ Most of our images are static, versioned, and require an image update and contai
 Below are the instructions for updating containers:
 
 ### Via Docker Run/Create
-* Update the image: `docker pull linuxserver/tt-rss`
+* Update the image: `docker pull moritanosuke/tt-rss`
 * Stop the running container: `docker stop tt-rss`
 * Delete the container: `docker rm tt-rss`
 * Recreate a new container with the same docker create parameters as instructed above (if mapped correctly to a host folder, your `/config` folder and settings will be preserved)
@@ -215,12 +178,12 @@ Below are the instructions for updating containers:
 
 If you want to make local modifications to these images for development purposes or just to customize the logic:
 ```
-git clone https://github.com/linuxserver/docker-tt-rss.git
+git clone https://github.com/moritanosuke/docker-tt-rss.git
 cd docker-tt-rss
 docker build \
   --no-cache \
   --pull \
-  -t linuxserver/tt-rss:latest .
+  -t moritanosuke/tt-rss:latest .
 ```
 
 The ARM variants can be built on x86_64 hardware using `multiarch/qemu-user-static`

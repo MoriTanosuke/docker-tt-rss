@@ -1,4 +1,4 @@
-#!/usr/bin/with-contenv bash
+#!/usr/bin/env bash
 
 [[ -d /config/www/tt-rss ]] && \
 	s6-setuidgid abc php7 \

@@ -1,4 +1,4 @@
-#!/usr/bin/with-contenv bash
+#!/usr/bin/env bash
 
 # if this is a clean container use the new nginx root
 [[ ! -d /config/www/tt-rss ]] && \

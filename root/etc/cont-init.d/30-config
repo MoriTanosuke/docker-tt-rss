@@ -1,4 +1,4 @@
-#!/usr/bin/with-contenv bash
+#!/usr/bin/env bash
 
 # if this is a legacy container do not run any logic
 [[ -d /config/www/tt-rss ]] && \
